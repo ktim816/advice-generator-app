@@ -1,6 +1,6 @@
 html,
 body {
-  @apply min-h-screen;
+  @apply min-h-screen bg-dark-blue;
 }
 
 html {
@@ -15,5 +15,9 @@ html {
 
 a,
 span {
-  @apply inline-block;
+  @apply inline-block text-sm;
+}
+
+img {
+  @apply w-full;
 }

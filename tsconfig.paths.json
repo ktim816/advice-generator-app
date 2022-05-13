@@ -2,6 +2,9 @@
   "compilerOptions": {
     "baseUrl": "./src/",
     "paths": {
+      "@api": ["./api"],
+      "@api/*": ["./api/*"],
+
       "@images": ["./assets/images"],
       "@images/*": ["./assets/images/*"],
 
