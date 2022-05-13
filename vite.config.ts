@@ -5,7 +5,7 @@ import svgLoader from 'vite-svg-loader';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // base: '/advice-generator-app',
+  base: '/advice-generator-app',
   plugins: [vue(), svgLoader()],
   resolve: {
     alias: {
